@@ -126,6 +126,11 @@ The repository contains three primary scripts:
   python ScrapperPubMed.py
   ```
 
+## EMBASE
+If we use the embase database for the search and use the csv file that it outputs, we will need to use the script `structure_embase.pyt` to structure the output into columns wise attributes for each paper (row). 
+
+Furthermore, we will use the script `filter_emabe.pyt` to exclude papers that are of no interest. 
+
 ## Usage
 
 1. **Step 1: Find Papers**

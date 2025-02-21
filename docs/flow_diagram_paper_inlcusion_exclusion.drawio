@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2025-02-21T02:57:56.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="gwe_nsCI9Ba-nEUVpqLW" version="21.6.8" type="device">
+  <diagram name="Page-1" id="zxsztDTPMvV-T1c_Gx10">
+    <mxGraphModel dx="1052" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mj2D56HwuvFKjDnhpCIl-2" target="Mj2D56HwuvFKjDnhpCIl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mj2D56HwuvFKjDnhpCIl-3" target="Mj2D56HwuvFKjDnhpCIl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-6" value="Included" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5CA3FF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="240" width="180" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-3" value="Screening" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5CA3FF;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-17">
+          <mxGeometry width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-11" value="Results&lt;br&gt;(N=837)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-17">
+          <mxGeometry x="25" y="70" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-13" value="Excluded fom features besides questionnaire and duplicates&lt;br&gt;(N=817)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-17">
+          <mxGeometry x="25" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="240" width="210" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-2" value="Identification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#f1993b;strokeWidth=3;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-19">
+          <mxGeometry width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-8" value="(machine learning) AND (obstructive sleep apnea OR OSA) AND (questionnaire OR survey OR screening) AND (classification OR diagnosis) " style="text;whiteSpace=wrap;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-19">
+          <mxGeometry x="20" y="70" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indexed in: &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-Google Scholar (N=213)&lt;br&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-Pubmed (N=301)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-Embase (N=323)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-19">
+          <mxGeometry x="20" y="189" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="577.5" y="240" width="105" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-5" value="Eligibility" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5CA3FF;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-20">
+          <mxGeometry x="2.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-14" value="Full Text Assessed&lt;br&gt;(N=20)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mj2D56HwuvFKjDnhpCIl-20">
+          <mxGeometry y="120" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mj2D56HwuvFKjDnhpCIl-5" target="Mj2D56HwuvFKjDnhpCIl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj2D56HwuvFKjDnhpCIl-22" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Potato potato potatieortirofndfjvnsdj&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="340" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
