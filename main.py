@@ -1,16 +1,19 @@
-# This is a sample Python script.
+import subprocess
+import sys
+import os
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def run_scripts_via_subprocess():
+    # Construct paths to your scripts
+    step1_script = os.path.join("notebooks", "MetaResearchStep1_FindPapers.py")
+    step2_script = os.path.join("notebooks", "MetaResearchStep2_GetFullAbstracts.py")
 
+    # Run Step1
+    print("Running Step1: FindPapers...")
+    subprocess.run([sys.executable, step1_script], check=True)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    # Run Step2
+    print("Running Step2: GetFullAbstracts...")
+    subprocess.run([sys.executable, step2_script], check=True)
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    run_scripts_via_subprocess()
