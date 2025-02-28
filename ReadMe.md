@@ -2,6 +2,16 @@
 
 This repository contains three Python scripts designed for literature research. Each script targets different data sources and employs various techniques for searching, filtering, and extracting information.
 
+For the systematic review of diagnostic test we follow the suggestions given by: Campbell, Jared M. PhD1; Klugar, Miloslav PhD2; Ding, Sandrine PhD3; Carmody, Dennis P. PhD4; Hakonsen, Sasja J. MScN5; Jadotte, Yuri T. PhD6,7; White, Sarahlouise PhD8; Munn, Zachary PhD1. Diagnostic test accuracy: methods for systematic review and meta-analysis. International Journal of Evidence-Based Healthcare 13(3):p 154-162, September 2015. | DOI: 10.1097/XEB.0000000000000061 
+
+A good tutorial: 
+- https://training.cochrane.org/handbook/current/chapter-10#section-10-4
+- https://juls-dotcom.github.io/meta_analysis.html
+
+The protocol of the meta analysis is located in `docs/Systematic_Review_and_Meta.pdf`
+
+![Alt text](./results/modalities/Figure2_sroc_all.png)
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -30,6 +40,9 @@ The repository contains three primary scripts:
 
 4. **ScrapperPubMed.py**  
    Scrapes PubMed for papers matching a specified query. It retrieves paper titles, links, and abstracts by parsing the HTML of each paper’s page, then saves the results to a CSV file. The script prompts the user to input the number of pages to scrape.
+
+5. **meta_stats.py**
+    Meta Analysis for a diagnostic test
 
 ## Requirements
 
@@ -151,3 +164,11 @@ Furthermore, we will use the script `filter_emabe.pyt` to exclude papers that ar
 - **Rate Limiting:** Some functions include delays (using `time.sleep`) to avoid rate limiting. Adjust these delays if necessary.
 - **Customization:** Modify the query strings and filtering criteria in the scripts to tailor the search to your specific research needs.
 - **Error Handling:** Basic error handling is implemented. Review console messages for any issues during execution.
+
+## Statistical Analysis 
+- Use the script `meta_stats_sroc_bivariate_model.py`
+  - It computes the SROC and bivariate model of the meta analysis
+  - **Table 1:** [`Table1_sroc_all.csv`](./results/Table1_sroc_all.csv)
+  - **Table 2:** [`Table1_sroc_all.csv`](./results/Table2_bivariate_all.csv)
+  - ![Figure 1 Pooled Sensitivyt and Specifcity](./results/modalities/Figure1_ROC_individual_all.png)
+  - ![Alt text](./results/modalities/Figure2_sroc_all.png)
